@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/centrale-sans-regular');
+
+
+body {
+    background: white;
+    font-family: "Centrale Sans Regular", sans-serrif;
+}
+.top-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #003C4B, #007493);
+    padding: 15px;
+    color: white;
+    box-shadow: 0 0 5px 5px #292929;
+    z-index: 50;
+    position: absolute;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.privacy {
+    margin-top: 100px;
+}
+
+.P-tekst{
+    font-size: 18px;
+    color: dimgrey;
+    padding-bottom: 30px;
+}
+
+.S-titel {
+    font-size: 25px;
+    font-weight: bold;
+    color: #00627C;
+    padding-bottom: 10px;
+}
+
+
+

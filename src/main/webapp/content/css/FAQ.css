@@ -1,0 +1,115 @@
+@import url('http://fonts.cdnfonts.com/css/centrale-sans-regular');
+
+:root {
+	--background-color: #00586f;
+	--CentraleSansLight: "Centrale Sans Light", sans-serif;
+	--CentraleSansRegular: "Centrale Sans Regular", sans-serif--CentraleSansItalic
+	"Centrale Sans Italic", sans-serif;
+	--CentraleSansMedium: "Centrale Sans Medium", sans-serif;
+	--CentraleSansBold: "Centrale Sans Bold", sans-serif;
+	--secondaryColor: #006E96;
+}
+
+body {
+	background: white;
+	font-family: var( --CentraleSansRegular);
+}
+
+.divfaq {
+	background-color: #006E96;
+	width: 100%;
+	
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	font-size: large;
+}
+
+.thfaq {
+	padding-bottom: 10px;
+	border-bottom: solid #00586f 4px;
+	position: relative;
+}
+
+.collapseButtonFAQ {
+	background-color: rgba(255, 255, 255, 0) !important;
+	border: none;
+	font-size: large;
+	position: center;
+	
+  
+  
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px 20px;
+}
+
+
+.faqbtn {
+	background-color: #085474;
+	color: white;
+	box-shadow: 0px 0px 8px rgb(0, 60, 72);
+	border-radius: 50px;
+	text-shadow: #00586f;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	float: right;
+	margin: 10px;
+	font-size: 35px;
+}
+
+.addfaq {
+	width: 80%;
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 45%;
+	background-color: #006E96;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	border-radius: 25px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	border: 1px solid white;
+	margin: 20px;
+}
+
+.addfaq input {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	text-shadow: #00586f;
+	border-radius: 5px;
+}
+
+.addfaq button {
+	margin: 0 5px;
+	background-color: #00000057;
+	opacity: 0.70;
+	color: white;
+	box-shadow: 0px 0px 8px rgb(0, 60, 72);
+	border-radius: 50px;
+	text-shadow: #00586f;
+	text-align: center;
+	width: 90%;
+	height: 5%;
+}
+
+.btn-trash {
+	max-width: 50px;
+	width: 100%;
+	float: right;
+	padding-top: 50px; /* De knop 5 pixels naar beneden verplaatsen */
+}
+
+.bi {
+	font-size: 20px;
+	color: white;
+}
+
+.bi:hover {
+	color: #add8e6;
+}

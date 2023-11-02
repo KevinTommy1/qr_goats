@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;900&display=swap');
+
+* {
+	font-family: 'Heebo', sans-serif;
+}
+
+.titel {
+	font-weight: 900;
+	font-size: 15vh;
+}
+
+.sub-tekst {
+	font-weight: 400;
+}
+
+.login-btn {
+	font-weight: 500;
+	border-radius: 25px;
+}
